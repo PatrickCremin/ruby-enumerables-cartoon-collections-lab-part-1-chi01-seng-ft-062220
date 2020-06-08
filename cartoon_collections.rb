@@ -5,5 +5,7 @@ array.each do |char|
 end
 
 def list_dwarves(array)
-  array.
+  array.each_with_index do |char, i|
+    p "#{i+1}. #{char}"
+end
 end
